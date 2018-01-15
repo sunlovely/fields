@@ -1,0 +1,308 @@
+[
+	{
+		"delicious" : [
+			{
+				"img":"img/index/food1.jpg",
+				"name":"Jack's Creek 澳洲 雪花和牛 牛腱（M6-8）",
+				"weight" :"500克",
+				"price":"¥ 128"
+			},
+			{
+				"img":"img/index/floor2.jpg",
+				"name":"Fields 新年牛肉海鲜礼盒",
+				"weight" :"1套",
+				"price":"¥ 599"
+			},
+			{
+				"img":"img/index/food3.jpg",
+				"name":"上海 淡雪白草莓（菠萝莓）",
+				"weight" :"240克",
+				"price":"¥ 108"
+			},
+			{
+				"img":"img/index/food4.JPG",
+				"name":"百欧欢 混合叶甜菜",
+				"weight" :"250克",
+				"price":"¥ 16"
+			},
+			{
+				"img":"img/index/food5.jpg",
+				"name":"莓酒佳人",
+				"weight" :"1套",
+				"price":"¥ 228"
+			},
+			{
+				"img":"img/index/food6.JPG",
+				"name":" Kettle 薯片（海盐香醋）",
+				"weight" :"142克",
+				"price":" ¥ 35 "
+			}
+		],
+				"xianshicuxiao" : [
+			{
+				"img":"img/index/xianshi1.jpg",
+				"name":"新西兰 冰鲜帝王鲑（三文鱼）",
+				"weight" :"200克",
+				"price":"¥ 105"
+			},
+			{
+				"img":"img/index/xianshi2.JPG",
+				"name":"真味有机低脂牛奶",
+				"weight" :"1升",
+				"price":"¥ 27"
+			},
+			{
+				"img":"img/index/xianshi3.jpg",
+				"name":"缸鸭狗 宁波汤圆",
+				"weight" :"20克*16",
+				"price":"¥ 20"
+			},
+			{
+				"img":"img/index/xianshi4.jpg",
+				"name":"新奇士 加州卡拉卡拉红肉橙",
+				"weight" :"4-5粒（1.0千克）",
+				"price":"¥ 50"
+			},
+			{
+				"img":"img/index/xianshi5.jpg",
+				"name":"FIELDS 精选深绿西葫芦",
+				"weight" :"500克",
+				"price":"¥ 19"
+			},
+			{
+				"img":"img/index/xianshi6.JPG",
+				"name":" 干红+干白组合装",
+				"weight" :"750毫升*2",
+				"price":" ¥ 198 "
+			}
+		],
+				"remaixinpin" : [
+			{
+				"img":"img/index/remai1.JPG",
+				"name":"泰森 冰鲜 琵琶腿",
+				"weight" :"650克",
+				"price":"¥ 28"
+			},
+			{
+				"img":"img/index/reimai2.jpg",
+				"name":"宾得宝含气干姜汁饮料(375 ml*6)",
+				"weight" :"375毫升*6",
+				"price":"¥ 132"
+			},
+			{
+				"img":"img/index/reimai3.JPG",
+				"name":"生态农夫严选 香妃柚",
+				"weight" :"1粒（850克）",
+				"price":"¥ 29"
+			},
+			{
+				"img":"img/index/reimai4.JPG",
+				"name":"柏札莱 阿尔卑黄油",
+				"weight" :"250克",
+				"price":"¥ 29"
+			},
+			{
+				"img":"img/index/remai5.jpg",
+				"name":"馥曼之鱻 伦敦手工烟熏苏格兰三文鱼",
+				"weight" :"200克",
+				"price":"¥ 269"
+			},
+			{
+				"img":"img/index/remai6.jpg",
+				"name":"农夫山泉 17.5°橙（钻石果，原箱）",
+				"weight" :"12-15粒（3千克）",
+				"price":" ¥ 118  "
+			}
+		],
+				"shuiguo" : [
+			{
+				"img":"img/index/shuiguo1.JPG",
+				"name":"实赣派 山地诚意赣南脐橙（原箱）",
+				"weight" :"13-16粒（2.6千克）",
+				"price":"¥ 95"
+			},
+			{
+				"img":"img/index/shuiguo2.jpg",
+				"name":"广西 融安超甜无籽滑皮金桔（大果）",
+				"weight" :"700克",
+				"price":"¥ 59"
+			},
+			{
+				"img":"img/index/shuiguo3.JPG",
+				"name":"澳洲 塔斯马尼亚车厘子（原箱，32-34 mm)",
+				"weight" :"2千克",
+				"price":"¥ 598"
+			},
+			{
+				"img":"img/index/shuiguo4.jpg",
+				"name":"江西 精选赣南脐橙",
+				"weight" :"5-6粒（1.2千克）",
+				"price":"¥ 29"
+			},
+			{
+				"img":"img/index/shuiguo5.jpg",
+				"name":"华盛顿 安波露西亚苹果（神仙果）",
+				"weight" :"4粒（900克）",
+				"price":"¥ 56"
+			},
+			{
+				"img":"img/index/shuiguo6.jpg",
+				"name":"FIELDS 精选小颗红颜草莓（2盒装）",
+				"weight" :"240克*2",
+				"price":" ¥ 39 "
+			}
+		],
+				"nianhuojie" : [
+			{
+				"img":"img/index/nianhuo1.JPG",
+				"name":"素养生活有机杂粮礼盒（豆类）",
+				"weight" :"3.6千克",
+				"price":"¥ 248"
+			},
+			{
+				"img":"img/index/nianhuo2.jpg",
+				"name":"越光精米礼盒2.5kg*2",
+				"weight" :"5千克",
+				"price":"¥ 208"
+			},
+			{
+				"img":"img/index/nianhuo3.JPG",
+				"name":"素养生活有机杂粮礼盒（米类）",
+				"weight" :"4.15千克",
+				"price":"¥ 248"
+			},
+			{
+				"img":"img/index/nianhuo4.JPG",
+				"name":"臻品舍亚麻籽油精选礼盒 500 ml*3",
+				"weight" :"500毫升*3",
+				"price":"¥ 188"
+			},
+			{
+				"img":"img/index/nianhuo5.JPG",
+				"name":"素养生活有机食用菌礼盒",
+				"weight" :"415克",
+				"price":"¥ 248"
+			},
+			{
+				"img":"img/index/nianhuo6.JPG",
+				"name":"福奇 特级初榨橄榄油&amp;葡萄籽油礼盒装 2*1 L ",
+				"weight" :"2*1 升",
+				"price":"¥ 188"
+			}
+		],
+				"suxiang" : [
+			{
+				"img":"img/index/shuxiang1.jpg",
+				"name":"缸鸭狗 萝卜干包",
+				"weight" :"40克*10",
+				"price":"¥ 16"
+			},
+			{
+				"img":"img/index/shuxiang2.jpg",
+				"name":"缸鸭狗 宁波汤圆",
+				"weight" :"20克*16",
+				"price":"¥ 20"
+			},
+			{
+				"img":"img/index/shuxiang3.JPG",
+				"name":"刀切菠菜馒头",
+				"weight" :"360克",
+				"price":"¥ 16"
+			},
+			{
+				"img":"img/index/shuxiang4.jpg",
+				"name":"FIELDS 手工韭菜猪肉(黑毛猪)水饺",
+				"weight" :"240克",
+				"price":"¥ 25"
+			},
+			{
+				"img":"img/index/shuxiang5.JPG",
+				"name":"缸鸭狗手工酒酿",
+				"weight" :"330克",
+				"price":"¥ 18"
+			},
+			{
+				"img":"img/index/shuxiang6.JPG",
+				"name":"荠菜笋丁糍毛团 ",
+				"weight" :"80克*6",
+				"price":"¥ 27"
+			}
+		],
+				"nuk" : [
+			{
+				"img":"img/index/nuk1.JPG",
+				"name":"Frosch菲洛施  柠檬浓缩洗碗液",
+				"weight" :"750毫升",
+				"price":"¥ 29"
+			},
+			{
+				"img":"img/index/nuk2.JPG",
+				"name":" Frosch菲洛施  彩色衣物浓缩洗衣液",
+				"weight" :"1500毫升",
+				"price":"¥ 109"
+			},
+			{
+				"img":"img/index/nuk3.JPG",
+				"name":"Frosch菲洛施  厨房重油污清洁剂（苏打）",
+				"weight" :"500毫升",
+				"price":"¥ 49"
+			},
+			{
+				"img":"img/index/nuk4.JPG",
+				"name":"NUK 安睡型乳胶安抚奶嘴（0-6个月）",
+				"weight" :"1件",
+				"price":"¥ 43"
+			},
+			{
+				"img":"img/index/nuk5.JPG",
+				"name":"NUK 300ml宽口PP彩色奶瓶(带6-18个月硅胶中圆孔奶嘴)",
+				"weight" :"300毫升",
+				"price":"¥ 79"
+			},
+			{
+				"img":"img/index/nuk6.jpg",
+				"name":"NUK 婴儿洗衣液 ",
+				"weight" :"NUK 婴儿洗衣液",
+				"price":"¥ 80"
+			}
+		],
+				"yankejiu" : [
+			{
+				"img":"img/index/jiu1.JPG",
+				"name":"夏桐Me蜜传统工艺粉红半干高泡葡萄酒",
+				"weight" :"750毫升",
+				"price":"¥ 188"
+			},
+			{
+				"img":"img/index/jiu2.JPG",
+				"name":"夏桐Me蜜传统工艺半干高泡葡萄酒",
+				"weight" :"750毫升",
+				"price":"¥ 188"
+			},
+			{
+				"img":"img/index/jiu3.JPG",
+				"name":"夏桐传统工艺粉红天然高泡葡萄酒",
+				"weight" :"750毫升",
+				"price":"¥ 188"
+			},
+			{
+				"img":"img/index/jiu4.JPG",
+				"name":"夏桐传统工艺天然高泡葡萄酒",
+				"weight" :"750毫升",
+				"price":"¥ 188"
+			},
+			{
+				"img":"img/index/jiu5.JPG",
+				"name":"云雾之湾长相思白葡萄酒",
+				"weight" :"750毫升",
+				"price":"¥ 339"
+			},
+			{
+				"img":"img/index/jiu6.JPG",
+				"name":"云雾之湾蒂蔻蔻白葡萄酒",
+				"weight" :"750毫升",
+				"price":"¥ 428"
+			}
+		]
+	}
+]
