@@ -1,0 +1,397 @@
+.top_con,.jump_con,.content_con{
+    width:1200px;
+    margin:0 auto;
+}
+//top
+.top_con{
+    height:38px;
+    border-bottom: 1px solid #f0f0f0;
+    .top_left{
+        width:600px;
+        height:25px;
+        float:left;
+        padding-top:13px;
+        p{
+            float:left;
+            height:12px;
+            font-size:12px;
+            line-height:12px;
+            color:#737373;
+            .login{
+                padding:0 13px 0 10px;
+                border-right:1px solid #737375;
+            }
+            .register{
+                padding:0 23px 0 12px;
+            }
+            span{
+                padding-left:3px;
+            }
+            .addr{
+                padding:0 28px 0 20px;
+                position:relative;
+                color:#08994e;
+                .icon1{
+                    width:5px;
+                    height:3px;
+                    background:url(../img/index/icons.png) no-repeat -438px -111px;
+                    position:absolute;
+                    top:8px;
+                    right:3px;
+                }
+            }
+        }
+    }
+    .top_right{
+        width:600px;
+        height:38px;
+        float:left;
+        .myli{
+            float:left;
+            a{
+                display: block;
+                font-size:12px;
+                line-height: 12px;
+                color:#808080;
+                padding-top:13px;
+            }
+            .my{
+               margin:0 32px 0 3px;
+            }
+        }
+        .listyle{
+            a{
+                height:25px;
+                padding:13px 30px 0 5px;
+                position:relative;
+                .icon2{
+                    width:5px;
+                    height:3px;
+                    background:url(../img/index/icons.png) no-repeat -438px -111px;
+                    position:absolute;
+                    top:18px;
+                    right:5px;
+                }
+            }
+            .name{
+               margin-right: 8px;
+            }
+            .phone{
+                padding:13px 30px 0 30px;
+                position: relative;
+                margin-right: 25px;
+                .ap{
+                    width:14px;
+                    height:22px;
+                    background:url(../img/index/icons.png) no-repeat -109px -389px;
+                    position: absolute;
+                    left:10px;
+                    top:6px;
+                }
+            }
+            .focus{
+                margin-right:20px;
+            }
+            .en{
+                padding:13px 65px 0 5px;
+                position: relative;
+                color:#08994E;
+                .ensign{
+                    display: block;
+                    width:30px;
+                    height:30px;
+                    background: url(../img/index/icons.png) no-repeat -405px -317px;
+                    position: absolute;
+                    left:35px;
+                    top:4px;
+                }
+            }
+        }
+        .li1{
+            position: relative;
+            .nlist{
+                display: none;
+                position:absolute;
+                border:1px solid #ccc;
+                border-top:0;
+                background: white;
+                z-index: 10;
+            }
+        }
+        .li2{
+            position:relative;
+            .downapp{
+                display: none;
+                position:absolute;
+                border:1px solid #ccc;
+                border-top:0;
+                z-index: 10;
+                span{
+                    display: block;
+                    width:120px;
+                    height:14px;
+                    text-align: center;
+                    font-size:12px;
+                    line-height:14px;
+                    color:#08994E;
+                    padding: 15px 0 10px 0;
+                    background: white;
+                }
+                a{
+                    display: block;
+                    width:120px;
+                    height:120px;
+                    padding:0;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
+        }
+        .li3{
+            position:relative;
+            .concat{
+                display: none;
+                position:absolute;
+                width:125px;
+                background: white;
+                border:1px solid #ccc;
+                border-top:0;
+                z-index: 10;
+                .con{
+                    height:36px;
+                    padding-top:8px;
+                    a{
+                        float:left;
+                        display: block;
+                        width:28px;
+                        height:28px;
+                        padding:0;
+                        margin-left: 6px;
+                    }
+                    .a1{
+                        background:url(../img/index/icons.png) no-repeat -357px -148px;
+                        
+                    }
+                    .a2{
+                        background: url(../img/index/icons.png) no-repeat -472px -148px;
+                        
+                    }
+                }
+                .weixin{
+                    display: block;
+                    width:120px;
+                    height:120px;
+                    padding:0;
+                    margin:0;
+                    z-index: 10;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
+        }
+        .li4{
+            position:relative;
+            .language{
+                display: none;
+                position:absolute;
+                background: white;
+                width:100px;
+                height:160px;
+                border:1px solid #ccc;
+                border-top:0;
+                z-index: 20;
+                li{
+                     width:100px;
+                    a{
+                        display: block;
+                        width:120px;
+                        padding-left:45px;
+                        position:relative;
+                        .icon3{
+                            display: block;
+                            width:30px;
+                            height:30px;
+                            position:absolute;
+                            left:2px;
+                            top:0;
+                        }
+                        .i1{
+                            background: url(../img/index/icons.png) no-repeat -285px -317px;
+                        }
+                        .i2{
+                            background: url(../img/index/icons.png) no-repeat -405px -317px;
+                        }
+                        .i3{
+                            background: url(../img/index/icons.png) no-repeat -245px -317px;
+                        }
+                        .i4{
+                            background: url(../img/index/icons.png) no-repeat -366px -317px;
+                        }
+                    }
+                }
+            }
+        }  
+    
+    }
+}
+//logo
+.logo_con{
+    width:1140px;
+    height:100px;
+    padding:32px 0 0 60px;
+    margin:0 auto;
+}
+//jump 
+.jump_con{
+    height:46px;
+    .jump_left{
+        font-size:24px;
+        line-height: 24px;
+        color:#737373;
+        font-weight:900;
+        float:left;
+    }
+    .jump_right{
+        float:right;
+        a{
+            font-size:16px;
+            line-height: 16px;
+            color:#009c4c;
+        }
+    }
+}
+//content
+#content{
+    height:892px;
+    margin-bottom: 100px;
+    .content_con{
+        height:892px;
+        border:1px solid #ccc;
+        box-shadow: 0 5px 10px 10px #ccc;
+        .content_register{
+            width:1200px;
+            height:789px;
+            border-bottom: 1px solid #f0f0f0;
+            .content_left{
+                width:592px;
+                padding:107px 0 0 50px;
+                float:left;
+            }
+            .content_right{
+                width:558px;
+                padding-top: 107px;
+                float:left;
+                ul{
+                    position:relative;
+                    li{
+                        .inp{
+                            width:506px;
+                            height:64px;
+                            border:1px solid #e2e6e4;
+                            font-size: 16px;
+                            line-height: 64px;
+                            color:#737373;
+                            padding-left:20px;
+                            margin-bottom: 30px;
+                        }
+                        .regi{
+                            display: block;
+                            width: 508px;
+                            height: 66px;
+                            font-size: 26px;
+                            line-height: 66px;
+                            text-align: center;
+                            color: #737373;
+                            background: #009c4c;
+                        }
+                    }
+                    .check{
+                            padding-bottom: 32px;
+                            .argeen{
+                                font-size:12px;
+                                line-height: 12px;
+                                color:#737373;
+                                .rule{
+                                    span{
+                                        color:#005aa0;
+                                    }
+                                }
+                            }
+                            .check_box{
+                                width: 13px;
+                                height: 13px;
+                                background: #ccc;
+                            }
+                    }
+                    .pic{
+                        position:relative;
+                        .pcode{
+                            display: block;
+                            width: 130px;
+                            height: 54px;
+                            position: absolute;
+                            right: 36px;
+                            top:5px;
+                            border:1px solid #beb0af;
+                            font-size: 24px;
+                            font-weight: 500;
+                            color: gray;
+                            text-align: center; 
+                            line-height: 54px;               
+                            background:url(../img/register/1.png) no-repeat;
+                            background-size: 200% 200%;
+                            
+//                          img{
+//                              width:100%;
+//                              height:100%;
+//                          }
+                        }
+                    }
+                    .mesegali{
+                        position:relative;
+                        .sendme{
+                            display: block;
+                            width: 138px;
+                            height: 56px;
+                            position: absolute;
+                            right: 36px;
+                            top:5px;
+                            background: #e2e6e4;
+                            font-size: 16px;
+                            line-height: 56px;
+                            text-align: center;
+                            color:#737373;
+                        }
+                    }
+                    .error{
+                       display: none;
+                       width:526px;
+                       height: 24px;
+                       background:#e6e6e6;
+                       font-size:14px;
+                       line-height:24px;
+                       color:#db3a2e;
+                       padding-left: 20px;
+                       position:absolute;
+                       top:-26px;
+                       left:0;
+                    }
+                }
+            }
+        }
+        .content_bottom{
+            height: 103px;
+            p{
+                font-size: 12px;
+                padding-top: 26px;
+                text-align: center;
+                color: #626262;
+            }
+        }
+    }
+    
+}

@@ -7,13 +7,16 @@ require.config({
 		"top" : "top",
 		"ajax" : "ajax",
 		"banner" : "banner",
-		"delicious" : "delicious"
+		"delicious" : "delicious",
+		"register" : "register",
+		"login" : "login"
 	}
 })
 //执行代码
-require(["jquery","cookie","public","top","ajax","banner","delicious"],function($,cookie,public,top,ajax,banner,delicious){
+require(["jquery","cookie","public","top","ajax","banner","delicious","register","login"],function($,cookie,public,top,ajax,banner,delicious,register,login){
 	//代码
 	$(function(){
+//		index
 		top.menu("top_con");
 		top.second("li1","nlist");
 		top.second("li2","downapp");
@@ -26,5 +29,16 @@ require(["jquery","cookie","public","top","ajax","banner","delicious"],function(
 		top.recom("recommend_con");
 		top.btn("banner_btn");
 		delicious.delicious();
+		
+//		register
+		top.register("lis3","nlist");
+		top.register("lis4","downapp");
+		top.register("lis5","concat");
+		top.jump("jump_right");
+		top.jump("check");
+		top.jump("lo_check");
+		register.register();
+//		login
+		login.login();
 	})
 })

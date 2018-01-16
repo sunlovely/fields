@@ -10,6 +10,14 @@ define(function(){
 			$(this).find("span").css({"border-bottom" : 0});
 		});
 	}
+	function jump(classname){
+		var $mObj = $("." + classname).find("a");
+		$mObj.hover(function(){
+			$(this).find("span").css({"border-bottom" : "1px solid #08994e"});
+		},function(){
+			$(this).find("span").css({"border-bottom" : 0});
+		});
+	}
 //	二级菜单显示效果
 	function second(classname,childname){
 		var $sObj = $("." + classname);
@@ -31,6 +39,23 @@ define(function(){
 		});
 	}
 	
+	function register(classname,childname){
+		var $sObj = $("." + classname);
+		$sObj.mouseenter(function(){
+			$(this).find("a").first().css({
+				"border" : "1px solid #ccc",
+				"border-bottom" : "0"
+			});
+			$(this).find("." + childname).show();
+		});
+		$sObj.mouseleave(function(){
+			$(this).find("a").first().css({
+				"background" : "white",
+    			"border" : "0"
+			});
+			$(this).find("." + childname).hide();
+		});
+	}
 //	导航鼠标划过效果
 	function nav(classname){
 		var $mObj = $("." + classname).find("a");
@@ -103,12 +128,15 @@ define(function(){
 			$(this).css({"background" : "#ccc"});
 		});
 	}
+	
 	return {
 		menu : menu,
 		second : second,
 		nav : nav,
 		list : list,
 		recom : recom,
-		btn : btn
+		btn : btn,
+		register : register,
+		jump : jump
 	}
 })
