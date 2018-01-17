@@ -2,7 +2,7 @@ body {
   background: url(../img/index/New_background20170221.jpg);
   background-size: 100% 100%; }
 
-.top_con, .logo_con, .nav_con, .banner_con, .recommend_con, .delicious_con {
+.top_con, .logo_con, .nav_con, .details_con {
   width: 1200px;
   margin: 0 auto; }
 
@@ -279,7 +279,9 @@ body {
 .nav_con {
   height: 45px;
   background: white;
-  position: relative; }
+  position: relative;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0; }
   .nav_con .kind p {
     float: left; }
     .nav_con .kind p .con {
@@ -316,6 +318,7 @@ body {
         right: 20px;
         top: 20px; }
   .nav_con .second {
+    display: none;
     width: 210px;
     min-height: 430px;
     background: white;
@@ -362,139 +365,171 @@ body {
         padding-right: 130px; }
       .nav_con .second li .menu_con .menu_right {
         float: left; }
-      .nav_con .second li .menu_con .se_background {
-        width: 270px;
-        height: 200px;
-        float: left;
-        padding-top: 230px; }
-        .nav_con .second li .menu_con .se_background img {
+
+#details .details_con {
+  min-height: 754px;
+  background: white; }
+  #details .details_con .details_top {
+    width: 1112px;
+    height: 667px;
+    margin-left: 64px;
+    border-bottom: 1px solid #eeeeee; }
+    #details .details_con .details_top .details_left {
+      width: 500px;
+      height: 667px;
+      float: left; }
+      #details .details_con .details_top .details_left .de_jump {
+        font-size: 12px;
+        line-height: 12px;
+        color: #727272;
+        padding-top: 13px; }
+        #details .details_con .details_top .details_left .de_jump a {
+          color: #727272; }
+      #details .details_con .details_top .details_left .de_imgb {
+        width: 450px;
+        height: 450px; }
+        #details .details_con .details_top .details_left .de_imgb img {
           width: 100%;
           height: 100%; }
-
-.banner_con {
-  height: 430px;
-  position: relative; }
-  .banner_con p .btn_left {
-    display: block;
-    width: 42px;
-    height: 76px;
-    position: absolute;
-    left: -60px;
-    top: 171px;
-    background: #CCCCCC;
-    border-radius: 5px;
-    padding: 12px 0 0 10px;
-    z-index: 1001; }
-    .banner_con p .btn_left .icon_left {
-      display: block;
-      width: 32px;
-      height: 58px;
-      background: url(../img/index/icons.png) no-repeat -84px -316px; }
-  .banner_con p .btn_right {
-    display: block;
-    width: 42px;
-    height: 76px;
-    position: absolute;
-    right: -60px;
-    top: 171px;
-    background: #CCCCCC;
-    border-radius: 5px;
-    padding: 12px 0 0 10px;
-    z-index: 1001; }
-    .banner_con p .btn_right .icon_right {
-      display: block;
-      width: 32px;
-      height: 58px;
-      background: url(../img/index/icons.png) no-repeat 0 -316px; }
-  .banner_con .banner_img li {
-    position: absolute;
-    left: 0;
-    top: 0; }
-    .banner_con .banner_img li a {
-      display: block;
-      width: 1200px;
-      height: 430px; }
-      .banner_con .banner_img li a img {
-        width: 100%;
-        height: 100%; }
-  .banner_con .banner_bottom {
-    position: absolute;
-    left: 556px;
-    bottom: 10px;
-    z-index: 1002; }
-    .banner_con .banner_bottom li {
-      float: left; }
-      .banner_con .banner_bottom li a {
-        display: block;
-        width: 10px;
-        height: 10px;
-        background: #b1adac;
-        border-radius: 5px;
-        margin-right: 14px; }
-
-.recommend_con {
-  height: 270px;
-  background: white;
-  padding-top: 22px; }
-  .recommend_con .recommend_left {
-    float: left; }
-  .recommend_con .recommend_center {
-    float: left; }
-  .recommend_con .recommend_right {
-    float: left; }
-
-.delicious_con {
-  min-height: 722px;
-  background: white; }
-  .delicious_con .deleft {
-    height: 116px;
-    padding-top: 21px; }
-  .delicious_con .delicious_left {
-    width: 358px;
-    height: 666px;
-    float: left;
-    margin: 28px 0; }
-  .delicious_con .delicious_right {
-    width: 836px;
-    height: 666px;
-    padding-left: 6px;
-    float: left;
-    background: white;
-    position: relative;
-    margin: 28px 0; }
-    .delicious_con .delicious_right .deli {
-      width: 244px;
-      height: 311px;
-      padding: 20px 0 0 30px;
+      #details .details_con .details_top .details_left .de_imgs {
+        padding-top: 14px; }
+        #details .details_con .details_top .details_left .de_imgs li {
+          float: left; }
+          #details .details_con .details_top .details_left .de_imgs li a {
+            display: block;
+            width: 70px;
+            height: 70px;
+            margin-right: 8px; }
+            #details .details_con .details_top .details_left .de_imgs li a img {
+              width: 100%;
+              height: 100%; }
+    #details .details_con .details_top .details_right {
+      width: 606px;
+      height: 667px;
       float: left;
-      border: 0.5px solid #ccc; }
-      .delicious_con .delicious_right .deli .name {
-        display: block;
-        width: 210px;
-        height: 40px;
+      padding-top: 59px; }
+      #details .details_con .details_top .details_right h2 {
+        font-size: 24px;
+        line-height: 24px;
+        color: #323232;
+        padding-bottom: 26px; }
+      #details .details_con .details_top .details_right h3 {
         font-size: 16px;
-        line-height: 20px;
-        color: #343434; }
-      .delicious_con .delicious_right .deli .mesega {
-        position: relative; }
-        .delicious_con .delicious_right .deli .mesega .weight {
-          display: block;
+        line-height: 16px;
+        color: #009f4b;
+        padding-bottom: 9px; }
+      #details .details_con .details_top .details_right h4 {
+        font-size: 12px;
+        line-height: 12px;
+        color: #8e8e8e;
+        padding-bottom: 28px; }
+      #details .details_con .details_top .details_right .de_price {
+        height: 58px;
+        border-bottom: 1px solid #f2f2f2; }
+        #details .details_con .details_top .details_right .de_price span {
           font-size: 12px;
-          line-height: 18px;
-          color: #919191; }
-        .delicious_con .delicious_right .deli .mesega .price {
+          line-height: 12px;
+          color: #909090;
+          padding-top: 14px; }
+        #details .details_con .details_top .details_right .de_price strong {
+          font-size: 26px;
+          line-height: 26px;
+          color: #00a044;
+          font-weight: 900;
+          padding-left: 30px; }
+        #details .details_con .details_top .details_right .de_price del {
+          font-size: 12px;
+          line-height: 12px;
+          color: #8d8d8d;
+          padding-left: 26px; }
+      #details .details_con .details_top .details_right .de_message {
+        height: 120px;
+        border-bottom: 1px solid #f2f2f2; }
+        #details .details_con .details_top .details_right .de_message .de_standard {
+          height: 85px; }
+          #details .details_con .details_top .details_right .de_message .de_standard span {
+            display: block;
+            font-size: 12px;
+            line-height: 12px;
+            color: #797979;
+            padding-top: 32px;
+            float: left; }
+          #details .details_con .details_top .details_right .de_message .de_standard a {
+            display: block;
+            width: 64px;
+            height: 34px;
+            font-size: 12px;
+            line-height: 34px;
+            text-align: center;
+            color: #343434;
+            border: 1px dashed #009b50;
+            float: left;
+            margin: 20px 0 0 18px; }
+        #details .details_con .details_top .details_right .de_message .de_addr span {
+          font-size: 12px;
+          line-height: 12px;
+          color: #787878;
+          padding-right: 125px; }
+      #details .details_con .details_top .details_right .de_shop {
+        height: 110px;
+        border-bottom: 1px solid #f2f2f2; }
+        #details .details_con .details_top .details_right .de_shop .de_warn {
+          height: 25px;
+          font-size: 12px;
+          line-height: 12px;
+          color: #ec6f2d;
+          padding-top: 23px; }
+        #details .details_con .details_top .details_right .de_shop .de_num .sub {
           display: block;
-          font-size: 14px;
-          line-height: 20px;
-          color: #00a14b; }
-        .delicious_con .delicious_right .deli .mesega .iconbuy {
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border: 1px solid #e5e5e5;
+          float: left;
+          font-size: 12px;
+          color: #5c5c5c; }
+        #details .details_con .details_top .details_right .de_shop .de_num .de_count {
+          width: 70px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border: 1px solid #e5e5e5;
+          float: left;
+          font-size: 12px;
+          color: #5c5c5c; }
+        #details .details_con .details_top .details_right .de_shop .de_num .add {
           display: block;
-          width: 38px;
-          height: 33px;
-          background: url(../img/index/icons.png) no-repeat -436px -201px;
-          position: absolute;
-          right: 30px;
-          bottom: 5px; }
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          border: 1px solid #e5e5e5;
+          float: left;
+          font-size: 12px;
+          color: #5c5c5c;
+          margin-right: 59px; }
+        #details .details_con .details_top .details_right .de_shop .shop_btn {
+          display: block;
+          width: 125px;
+          height: 40px;
+          font-size: 16px;
+          line-height: 40px;
+          color: white;
+          text-align: center;
+          background: #00a044;
+          float: left; }
+      #details .details_con .details_top .details_right .de_intruduce {
+        height: 145px;
+        border-bottom: 1px solid #f2f2f2;
+        padding-top: 15px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #727272;
+        overflow-y: scroll; }
+        #details .details_con .details_top .details_right .de_intruduce span {
+          color: #030303;
+          font-weight: 900; }
 
 #footer {
   margin-top: 40px;

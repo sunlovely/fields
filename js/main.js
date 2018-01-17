@@ -21,13 +21,14 @@ require(["jquery","cookie","public","top","ajax","banner","delicious","register"
 		top.second("li1","nlist");
 		top.second("li2","downapp");
 		top.second("li3","concat");
-//		top.second("li4","language");
+		top.second("li4","language");
 		top.menu("key");
 		top.nav("kind");
 		top.list("second");
 		banner.banner();
 		top.recom("recommend_con");
 		top.btn("banner_btn");
+		top.kindsecond("kind_second");
 		delicious.delicious();
 		
 //		register

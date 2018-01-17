@@ -18,6 +18,15 @@ define(function(){
 			$(this).find("span").css({"border-bottom" : 0});
 		});
 	}
+	function kindsecond(classname){
+		var $kObj = $("." + classname);
+		$kObj.mouseover(function(){
+			$(".de_second").css({"display" : "block"});
+		});
+		$(".de_second").mouseleave(function(){
+			$(".second").css({"display" : "none"});
+		});
+	}
 //	二级菜单显示效果
 	function second(classname,childname){
 		var $sObj = $("." + classname);
@@ -137,6 +146,7 @@ define(function(){
 		recom : recom,
 		btn : btn,
 		register : register,
-		jump : jump
+		jump : jump,
+		kindsecond : kindsecond
 	}
 })
