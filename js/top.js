@@ -20,7 +20,7 @@ define(function(){
 	}
 	function kindsecond(classname){
 		var $kObj = $("." + classname);
-		$kObj.mouseover(function(){
+		$kObj.find(".first").mouseover(function(){
 			$(".de_second").css({"display" : "block"});
 		});
 		$(".de_second").mouseleave(function(){
@@ -137,7 +137,19 @@ define(function(){
 			$(this).css({"background" : "#ccc"});
 		});
 	}
-	
+	function fruit(classname){
+		var $fObj = $("." + classname);
+		$fObj.hover(function(){
+			$(this).find(".f_page").css({"display" : "block"});
+		},function(){
+			$(this).find(".f_page").css({"display" : "none"});
+		});
+		$fObj.find(".f_page").find("li").hover(function(){
+			$(this).css({"background" : "#fff"});
+		},function(){
+			$(this).css({"background" : "#e2e6e4"});
+		});
+	}
 	return {
 		menu : menu,
 		second : second,
@@ -147,6 +159,7 @@ define(function(){
 		btn : btn,
 		register : register,
 		jump : jump,
-		kindsecond : kindsecond
+		kindsecond : kindsecond,
+		fruit : fruit
 	}
 })

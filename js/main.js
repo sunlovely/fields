@@ -9,11 +9,13 @@ require.config({
 		"banner" : "banner",
 		"delicious" : "delicious",
 		"register" : "register",
-		"login" : "login"
+		"login" : "login",
+		"list" : "list",
+		"shop" : "shop"
 	}
 })
 //执行代码
-require(["jquery","cookie","public","top","ajax","banner","delicious","register","login"],function($,cookie,public,top,ajax,banner,delicious,register,login){
+require(["jquery","cookie","public","top","ajax","banner","delicious","register","login","list","shop"],function($,cookie,public,top,ajax,banner,delicious,register,login,list,shop){
 	//代码
 	$(function(){
 //		index
@@ -23,12 +25,14 @@ require(["jquery","cookie","public","top","ajax","banner","delicious","register"
 		top.second("li3","concat");
 		top.second("li4","language");
 		top.menu("key");
+		top.menu("fruit_left");
 		top.nav("kind");
 		top.list("second");
 		banner.banner();
 		top.recom("recommend_con");
 		top.btn("banner_btn");
 		top.kindsecond("kind_second");
+		top.fruit("fruit_num");
 		delicious.delicious();
 		
 //		register
@@ -38,8 +42,15 @@ require(["jquery","cookie","public","top","ajax","banner","delicious","register"
 		top.jump("jump_right");
 		top.jump("check");
 		top.jump("lo_check");
+		top.jump("fruit_top");
 		register.register();
 //		login
 		login.login();
+		
+//		list
+		list.fruit();
+		list.like();
+//		shop
+		shop.product();
 	})
 })

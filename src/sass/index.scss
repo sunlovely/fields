@@ -23,9 +23,15 @@ body{
             .login{
                 padding:0 13px 0 10px;
                 border-right:1px solid #737375;
+                span{
+                    color: rgb(115, 115, 115);;
+                }
             }
             .register{
                 padding:0 23px 0 12px;
+                span{
+                    color: rgb(115, 115, 115);;
+                }
             }
             span{
                 padding-left:3px;

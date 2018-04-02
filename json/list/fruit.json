@@ -1,0 +1,372 @@
+[
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1520250644441353_s2.png",
+		"name" : "FIELDS 精选桃熏草莓",
+		"title" : "桃香味 长势旺 口味佳",
+		"weight" : "240克",
+		"cuntry" : "上海",
+		"price" : "¥69"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1465928967643971_s2.jpg",
+		"name" : "Dole 都乐菲律宾香蕉",
+		"title" : "软糯香甜 ",
+		"weight" : "4-7根（1千克）",
+		"cuntry" : "菲律宾",
+		"price" : "¥17"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1463492408582362_s2.jpg",
+		"name" : "常瀛 墨西哥牛油果（优选熟果）",
+		"title" : "细腻柔滑 味道甘美",
+		"weight" : "4粒（单重140克）",
+		"cuntry" : "墨西哥",
+		"price" : "¥42"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1425469288562287_s2.jpg",
+		"name" : "以色列 星路比西柚",
+		"title" : "甘甜，营养价值高",
+		"weight" : "2个（500克）",
+		"cuntry" : "以色列",
+		"price" : "¥14"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1465407545391771_s2.jpg",
+		"name" : "常瀛 菲律宾香蕉（单根独立装",
+		"title" : "香甜软糯的进口“小黄人”",
+		"weight" : "5-7根(1千克)",
+		"cuntry" : "菲律宾",
+		"price" : "¥19"
+	},
+	{
+		"icon" : "img/list/frozen_2.png",
+		"img" : "img/list/1431525424450422_s2.jpg",
+		"name" : "FIELDS 冷冻草莓",
+		"title" : "细腻多汁 酸甜可口",
+		"weight" : "600克",
+		"cuntry" : "中国",
+		"price" : "¥35"
+	},
+	{
+		"icon" : "img/list/organic_2.png",
+		"img" : "img/list/1425676655741888_s2.jpg",
+		"name" : "SOD 山东有机苹果",
+		"title" : "红润香甜  爽脆多汁",
+		"weight" : "4粒（800克）",
+		"cuntry" : "山东",
+		"price" : "¥32"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1487152148242183_s2.jpg",
+		"name" : "Driscoll‘s 怡颗莓 蓝莓（14-18 mm）",
+		"title" : "精致美味蓝浆果",
+		"weight" : "125克",
+		"cuntry" : "云南",
+		"price" : "¥30"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1478618761267112_s2.jpg",
+		"name" : "智利 桑提娜车厘子（JJ，28-30 mm）",
+		"title" : "果中钻石 新季开启",
+		"weight" : "500克",
+		"cuntry" : "智利",
+		"price" : "¥59"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1472059711375129_s2.jpg",
+		"name" : "菲律宾 精选超甜凤梨（大）",
+		"title" : "超甜微酸 汁水清润充盈",
+		"weight" : "1个（1.6千克）",
+		"cuntry" : "菲律宾",
+		"price" : "¥29"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1493591545629628_s2.jpg",
+		"name" : "Dole 都乐Sweetio超甜蕉",
+		"title" : "软而甜的快乐食物",
+		"weight" : "4-5根（700克）",
+		"cuntry" : "菲律宾",
+		"price" : "¥17"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1461670129956869_s2.jpg",
+		"name" : "Zespri 佳沛意大利阳光金奇异果（6粒装）",
+		"title" : "水润香甜 汁液丰沛",
+		"weight" : "6粒（600克）",
+		"cuntry" : "意大利",
+		"price" : "¥52"
+	},
+	{
+		"icon" : "img/list/organic_2.png",
+		"img" : "img/list/1447428883155661_s2.jpg",
+		"name" : "新疆 有机阿克苏苹果",
+		"title" : "独特“冰糖心”   有机培育",
+		"weight" : "4粒（1千克）",
+		"cuntry" : "新疆",
+		"price" : "¥39"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1465825457334394_s2.jpg",
+		"name" : "新奇士 加州阳光脐橙",
+		"title" : "果汁充盈  浓甜可口",
+		"weight" : "4-6粒（1千克）",
+		"cuntry" : "美国",
+		"price" : "¥24"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1505843707251592_s2.jpg",
+		"name" : "Driscoll’s 黑莓",
+		"title" : "品牌水果   风味醇美",
+		"weight" : "125克",
+		"cuntry" : "云南",
+		"price" : "¥32"
+	},
+	{
+		"icon" : "img/list/organic_2.png",
+		"img" : "img/list/1476898157952449_s2.jpg",
+		"name" : "新疆 有机库尔勒香梨",
+		"title" : "清甜多汁 细腻无渣",
+		"weight" : "4-5粒（500克）",
+		"cuntry" : "新疆",
+		"price" : "¥19"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1462814504555943_s2.jpg",
+		"name" : "美国 华盛顿Granny Smith青苹果",
+		"title" : "酸甜爽口  清脆多汁",
+		"weight" : "4个(600克)",
+		"cuntry" : "美国",
+		"price" : "¥33"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1464779677865675_s2.jpg",
+		"name" : "新奇士 美国柠檬",
+		"title" : "鲜嫩多汁 香气扑鼻",
+		"weight" : "4-5个（450克）",
+		"cuntry" : "美国",
+		"price" : "¥29"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1461160213111622_s2.jpg",
+		"name" : "安岳 柠檬",
+		"title" : "色泽鲜亮  口感多汁",
+		"weight" : "2粒 (175克)",
+		"cuntry" : "四川",
+		"price" : "¥5"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1514475194608514_s2.JPG",
+		"name" : "实赣派 山地诚意赣南脐橙（原箱）",
+		"title" : "甄选橙中之橙",
+		"weight" : "13-16粒（2.6千克）",
+		"cuntry" : "江西",
+		"price" : "¥65"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1512663123852033_s2.JPG",
+		"name" : "云南 蒙自黄沙枇杷",
+		"title" : "甜酸可口  皮厚易剥",
+		"weight" : "9粒（220克）",
+		"cuntry" : "云南",
+		"price" : "¥32"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1483020332370709_s2.jpg",
+		"name" : "Driscoll‘s 怡颗莓 红树莓（覆盆子）",
+		"title" : "甘爽多汁",
+		"weight" : "125克",
+		"cuntry" : "云南",
+		"price" : "¥32"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1461670129956869_s2.jpg",
+		"name" : "Zespri 佳沛意大利绿奇异果（6粒装）",
+		"title" : "维生素含量超高",
+		"weight" : "6个 (单重100克)",
+		"cuntry" : "意大利",
+		"price" : "¥35"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1517478318511238_s2.JPG",
+		"name" : "蒲江 春见杂柑（耙耙柑）",
+		"title" : "甘甜饱满 鲜嫩多汁",
+		"weight" : "4-5粒（1.0千克）",
+		"cuntry" : "四川",
+		"price" : "¥30"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1518191630536023_s2.jpg",
+		"name" : "广西 沃柑蜜桔",
+		"title" : "饱满 多汁 甜蜜",
+		"weight" : "4-6粒（500克）",
+		"cuntry" : "广西",
+		"price" : "¥19"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1443111599879976_s2.jpg",
+		"name" : "台湾 红心芭乐",
+		"title" : "香气独特 口感清脆",
+		"weight" : "2只(420-520克)",
+		"cuntry" : "台湾",
+		"price" : "¥45"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/F-022-1026_s2.jpg",
+		"name" : "新疆 库尔勒香梨",
+		"title" : "甘甜如蜜，果味香浓",
+		"weight" : "4-5粒（500克）",
+		"cuntry" : "新疆",
+		"price" : "¥9"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1478275314882641_s2.jpg",
+		"name" : "江西 精选赣南脐橙",
+		"title" : "自然成熟 橙意满满",
+		"weight" : "5-6粒（1.2千克）",
+		"cuntry" : "江西",
+		"price" : "¥20"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1476030175903737_s2.jpg",
+		"name" : "广东 精选桑葚",
+		"title" : "味甜多汁 个大肉厚",
+		"weight" : "110克",
+		"cuntry" : "广东",
+		"price" : "¥16"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/F-022-0033_s2.jpg",
+		"name" : "越南 白心火龙果",
+		"title" : "清甜嫩滑 富含花青素",
+		"weight" : "2-3粒（1千克）",
+		"cuntry" : "越南",
+		"price" : "¥15"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1520250644441353_s2.png",
+		"name" : "1460626207748717_s2.jpg",
+		"title" : "果肉绵密  甜蜜而清新",
+		"weight" : "2个（1.2千克）",
+		"cuntry" : "海南",
+		"price" : "¥35"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1509976176543121_s2.jpg",
+		"name" : "砀山 皇冠梨",
+		"title" : "汁多肉脆 酸甜适口",
+		"weight" : "2-3粒（850克）",
+		"cuntry" : "安徽",
+		"price" : "¥10"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/F-021-0188_s2.jpg",
+		"name" : "广西 百香果（西番莲）",
+		"title" : "风味浓郁  芳香怡人",
+		"weight" : "4-7粒 (400克)",
+		"cuntry" : "广西",
+		"price" : "¥19"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1484140370905853_s2.jpg",
+		"name" : "新奇士 加州卡拉卡拉红肉橙",
+		"title" : "酸甜多汁 口感清爽",
+		"weight" : "4-6粒（1.0千克）",
+		"cuntry" : "美国",
+		"price" : "¥39"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1516369087949447_s2.JPG",
+		"name" : "万州 玫瑰香橙（塔罗科血橙）",
+		"title" : "清新橙香 汁多味浓",
+		"weight" : "5-6粒（0.9-1千克）",
+		"cuntry" : "重庆",
+		"price" : "¥49"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/list/1435600226264655_s2.jpg",
+		"name" : "辽宁 灯笼果（姑凉，姑鸟）",
+		"title" : "口味如造型一样迷人",
+		"weight" : "300克",
+		"cuntry" : "辽宁",
+		"price" : "¥14"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1465928910639429_s2.jpg",
+		"name" : "Dole 都乐菲律宾无冠金菠萝（大）",
+		"title" : "都乐菠萝 不酸不涩",
+		"weight" : "1个（1.3千克）",
+		"cuntry" : "菲律宾",
+		"price" : "¥24"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1478621897688951_s2.jpg",
+		"name" : "澳洲 油桃",
+		"title" : "酸甜可口的清脆",
+		"weight" : "4粒（520克）",
+		"cuntry" : "澳大利亚",
+		"price" : "¥28"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1518176258385029_s2.JPG",
+		"name" : "安岳 有机尤力克柠檬",
+		"title" : "产自中国柠檬之都",
+		"weight" : "2粒（220克）",
+		"cuntry" : "四川",
+		"price" : "¥15"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1464355775765209_s2.png",
+		"name" : "华盛顿 红元帅红蛇果（红地厘）",
+		"title" : "香甜多汁 芳香浓郁",
+		"weight" : "4粒(800克)",
+		"cuntry" : "美国",
+		"price" : "¥23"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1517840504913806_s2.jpg",
+		"name" : "海南 无籽西瓜",
+		"title" : "甘甜多汁 清爽解渴",
+		"weight" : "1粒（5.5千克）",
+		"cuntry" : "海南",
+		"price" : "¥49"
+	}
+	
+]

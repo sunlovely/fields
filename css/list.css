@@ -1,0 +1,419 @@
+.nav_con {
+  height: 45px;
+  background: white;
+  position: relative;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0; }
+  .nav_con .kind p {
+    float: left; }
+    .nav_con .kind p .con {
+      display: block;
+      height: 45px;
+      font-size: 16px;
+      line-height: 44px;
+      padding: 0 20px;
+      color: #464646;
+      position: relative; }
+      .nav_con .kind p .con .icon7 {
+        display: block;
+        width: 32px;
+        height: 23px;
+        background: url(../img/index/hot.jpg);
+        position: absolute;
+        left: 58px;
+        top: -8px; }
+    .nav_con .kind p .allkind {
+      display: block;
+      width: 135px;
+      height: 45px;
+      font-size: 16px;
+      line-height: 44px;
+      color: #333;
+      padding-left: 75px;
+      position: relative; }
+      .nav_con .kind p .allkind .icon6 {
+        display: block;
+        width: 11px;
+        height: 6px;
+        background: url(../img/index/icons.png) no-repeat -348px -111px;
+        position: absolute;
+        right: 20px;
+        top: 20px; }
+  .nav_con .second {
+    display: none;
+    width: 210px;
+    min-height: 430px;
+    background: white;
+    opacity: 0.9;
+    position: absolute;
+    top: 45px;
+    z-index: 10; }
+    .nav_con .second li .astyle {
+      display: block;
+      width: 140px;
+      height: 31px;
+      font-size: 14px;
+      line-height: 30px;
+      color: #312c29;
+      padding-left: 70px;
+      border-bottom: 1px solid white;
+      position: relative; }
+      .nav_con .second li .astyle .icon7 {
+        display: block;
+        width: 7px;
+        height: 11px;
+        background: url(../img/index/icons.png) no-repeat -538px -263px;
+        position: absolute;
+        right: 18px;
+        top: 9px; }
+    .nav_con .second li .menu_con {
+      display: none;
+      width: 990px;
+      height: 430px;
+      min_height: 430px;
+      position: absolute;
+      background: white;
+      left: 210px;
+      top: 0;
+      font-size: 14px;
+      line-height: 24px; }
+      .nav_con .second li .menu_con a {
+        color: black; }
+      .nav_con .second li .menu_con .menu_left {
+        float: left;
+        padding: 0 130px 0 10px; }
+      .nav_con .second li .menu_con .menu_center {
+        float: left;
+        padding-right: 130px; }
+      .nav_con .second li .menu_con .menu_right {
+        float: left; }
+
+.list_con {
+  background: white;
+  min-height: 1680px; }
+  .list_con .fruit_top {
+    padding: 15px 0 24px 65px;
+    font-size: 14px;
+    color: #737373; }
+    .list_con .fruit_top a {
+      color: inherit; }
+  .list_con .fruit_left {
+    float: left;
+    width: 180px;
+    min-height: 1620px;
+    padding: 0 20px;
+    background: white;
+    border-right: 1px solid gainsboro; }
+    .list_con .fruit_left p {
+      text-align: center;
+      padding: 5px 0; }
+      .list_con .fruit_left p strong {
+        color: #009c4c;
+        font-size: 16px;
+        font-weight: 700; }
+    .list_con .fruit_left ul {
+      padding-bottom: 120px; }
+      .list_con .fruit_left ul li {
+        position: relative; }
+        .list_con .fruit_left ul li a {
+          display: inline-block;
+          font-size: 14px;
+          line-height: 32px;
+          position: relative;
+          width: 100%;
+          text-align: center;
+          color: #737373; }
+        .list_con .fruit_left ul li .icon8 {
+          display: block;
+          width: 12px;
+          height: 12px;
+          background: url(../img/index/icons.png) no-repeat -550px -263px;
+          position: absolute;
+          top: 10px;
+          right: 0px; }
+    .list_con .fruit_left .like h2 {
+      padding-left: 20px;
+      font-weight: bold;
+      color: #737373;
+      font-size: 20px;
+      line-height: 24px; }
+    .list_con .fruit_left .like .like_food {
+      height: 300px;
+      margin-bottom: 10px;
+      text-align: center;
+      background: #fff;
+      position: relative;
+      padding: 10px 20px; }
+      .list_con .fruit_left .like .like_food .food_icon {
+        position: absolute;
+        top: 4px;
+        right: 0; }
+        .list_con .fruit_left .like .like_food .food_icon img {
+          width: 30px;
+          height: 30px; }
+      .list_con .fruit_left .like .like_food .food_img {
+        display: block; }
+        .list_con .fruit_left .like .like_food .food_img img {
+          width: 100%; }
+      .list_con .fruit_left .like .like_food h3 {
+        padding-bottom: 16px; }
+        .list_con .fruit_left .like .like_food h3 a {
+          font-size: 14px;
+          height: 42px;
+          color: #333;
+          line-height: 20px; }
+      .list_con .fruit_left .like .like_food .food_tit {
+        font-size: 12px;
+        color: #009c4c;
+        height: 20px;
+        line-height: 20px; }
+      .list_con .fruit_left .like .like_food .food_des {
+        font-size: 12px;
+        color: grey;
+        height: 20px; }
+        .list_con .fruit_left .like .like_food .food_des .f_weight {
+          margin-top: 2px; }
+        .list_con .fruit_left .like .like_food .food_des .f_cuntry {
+          font-size: 12px; }
+        .list_con .fruit_left .like .like_food .food_des .f_price {
+          height: 20px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #009c4c; }
+      .list_con .fruit_left .like .like_food .like_big {
+        width: 180px;
+        height: 320px;
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px 8px gainsboro;
+        text-align: left;
+        background: #fff; }
+        .list_con .fruit_left .like .like_food .like_big .food_img img {
+          width: 200px;
+          height: 200px; }
+        .list_con .fruit_left .like .like_food .like_big h3 a {
+          font-size: 16px; }
+        .list_con .fruit_left .like .like_food .like_big .food_tit {
+          margin-left: 0;
+          font-size: 14px; }
+  .list_con .fruit_right {
+    width: 920px;
+    float: left; }
+    .list_con .fruit_right .fruit_top {
+      height: 18px; }
+      .list_con .fruit_right .fruit_top .fruit_sort {
+        padding: 12px 25% 12px 0;
+        margin-left: 27px;
+        font-size: 14px;
+        float: left;
+        margin: 0 15px 15px 15px;
+        color: #737373; }
+        .list_con .fruit_right .fruit_top .fruit_sort strong {
+          font-weight: bold; }
+        .list_con .fruit_right .fruit_top .fruit_sort a {
+          margin: 0 15px 15px 15px;
+          color: #737373;
+          font-size: 14px; }
+      .list_con .fruit_right .fruit_top .fruit_num {
+        float: left;
+        width: 83px;
+        height: 18px;
+        padding: 6px 13px;
+        background: #e2e6e4;
+        position: relative; }
+        .list_con .fruit_right .fruit_top .fruit_num p {
+          font-size: 14px;
+          line-height: 18px;
+          color: #737373; }
+        .list_con .fruit_right .fruit_top .fruit_num .icon8 {
+          display: block;
+          width: 12px;
+          height: 12px;
+          background: url(../img/index/icons.png) no-repeat -349px -110px;
+          position: absolute;
+          top: 10px;
+          right: 10px; }
+        .list_con .fruit_right .fruit_top .fruit_num .f_page {
+          display: none;
+          position: absolute;
+          top: 30px;
+          left: 0;
+          width: 100%;
+          background: #e2e6e4; }
+          .list_con .fruit_right .fruit_top .fruit_num .f_page li {
+            border-top: 1px solid #fff;
+            padding: 5.5px 13px; }
+            .list_con .fruit_right .fruit_top .fruit_num .f_page li a {
+              font-size: 14px;
+              line-height: 18px;
+              color: #8d8d8d; }
+    .list_con .fruit_right .fruit_list .list_con1 {
+      width: 100%;
+      min-height: 1480px; }
+      .list_con .fruit_right .fruit_list .list_con1 .fruit_item {
+        width: 160px;
+        height: 270px;
+        padding: 0 26px 20px;
+        margin: 0 5px;
+        text-align: center;
+        float: left;
+        position: relative; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_icon {
+          position: absolute;
+          top: 4px;
+          right: 10px; }
+          .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_icon img {
+            width: 30px;
+            height: 30px; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_img {
+          display: block;
+          padding-left: 30px; }
+          .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_img img {
+            width: 127.5px;
+            height: 127.5px; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item h3 a {
+          display: block;
+          font-size: 14px;
+          height: 42px;
+          color: #333; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_tit {
+          font-size: 12px;
+          color: #009c4c;
+          height: 20px;
+          line-height: 20px; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_des .i_weight {
+          font-size: 12px;
+          margin-top: 2px;
+          line-height: 20px;
+          color: #8d8d8d; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_des .i_cuntry {
+          color: #8d8d8d;
+          margin-bottom: 3px;
+          font-size: 12px;
+          line-height: 20px;
+          color: #8d8d8d; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .item_des .i_price {
+          height: 20px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #009c4c; }
+        .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big {
+          position: absolute;
+          top: -3px;
+          left: -3px;
+          display: none;
+          width: 180px;
+          height: 290px;
+          padding: 0 26px 20px;
+          border: 1px solid #ccc;
+          box-shadow: 0 4px 8px 8px gainsboro;
+          text-align: left;
+          background: #fff; }
+          .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_img {
+            padding-left: 16px; }
+            .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_img img {
+              width: 150px;
+              height: 150px; }
+          .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big h3 a {
+            font-size: 16px; }
+          .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_tit {
+            font-size: 14px; }
+          .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_des {
+            position: relative; }
+            .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_des .i_weight {
+              font-size: 14px; }
+            .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_des .i_cuntry {
+              font-size: 14px; }
+            .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_des .i_price {
+              font-size: 20px; }
+            .list_con .fruit_right .fruit_list .list_con1 .fruit_item .fruit_big .item_des .pro_car {
+              display: block;
+              width: 40px;
+              height: 40px;
+              background: url(../img/index/icons.png) no-repeat -436px -200px;
+              position: absolute;
+              top: 28px;
+              right: 0; }
+      .list_con .fruit_right .fruit_list .list_con1 .fruit_item:hover .fruit_big {
+        z-index: 9999;
+        display: block; }
+    .list_con .fruit_right .paging {
+      width: 100%;
+      height: 65px;
+      margin-top: 10px;
+      padding: 4px 63px 0 0;
+      position: relative; }
+      .list_con .fruit_right .paging .fruit_page {
+        width: 280px;
+        height: 60;
+        padding: 10px 0;
+        position: absolute;
+        top: 5px;
+        right: 200px; }
+        .list_con .fruit_right .paging .fruit_page .prev_page {
+          width: 15px;
+          height: 25px;
+          padding: 8px 7px 7px 4px;
+          background-color: #e2e6e4;
+          float: left; }
+          .list_con .fruit_right .paging .fruit_page .prev_page a .prev_icon {
+            display: block;
+            width: 15px;
+            height: 25px;
+            background: url(../img/index/icons.png) no-repeat -60px -390px; }
+        .list_con .fruit_right .paging .fruit_page .pages {
+          margin: 0 8px;
+          float: left; }
+          .list_con .fruit_right .paging .fruit_page .pages a {
+            float: left;
+            display: block;
+            width: 24px;
+            height: 38px;
+            font-size: 14px;
+            border: 1px solid #c7e9d6;
+            text-align: center;
+            line-height: 38px; }
+          .list_con .fruit_right .paging .fruit_page .pages .current {
+            color: #fff;
+            background-color: #e2e6e4;
+            margin-right: 5px; }
+          .list_con .fruit_right .paging .fruit_page .pages .other {
+            color: #737373; }
+        .list_con .fruit_right .paging .fruit_page .next_page {
+          width: 15px;
+          height: 25px;
+          padding: 8px 7px 7px 4px;
+          background-color: #e2e6e4;
+          float: left; }
+          .list_con .fruit_right .paging .fruit_page .next_page a .prev_icon {
+            display: block;
+            width: 15px;
+            height: 25px;
+            background: url(../img/index/icons.png) no-repeat -83px -390px; }
+        .list_con .fruit_right .paging .fruit_page .page_jump {
+          width: 70px;
+          height: 38px;
+          margin-left: 20px;
+          font-size: 16px;
+          line-height: 38px;
+          color: #737373;
+          float: left;
+          position: relative; }
+          .list_con .fruit_right .paging .fruit_page .page_jump .inp {
+            width: 20px;
+            padding-right: 1px;
+            padding-left: 1px;
+            text-align: center;
+            height: 38px;
+            border: 1px solid #c7e9d6; }
+          .list_con .fruit_right .paging .fruit_page .page_jump .click {
+            display: block;
+            width: 35px;
+            height: 16px;
+            font-size: 16px;
+            line-height: 16px;
+            position: absolute;
+            top: 10px;
+            right: -40px;
+            color: #737373;
+            border-bottom: 1px solid #727272; }

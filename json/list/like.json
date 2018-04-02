@@ -1,0 +1,20 @@
+[
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1517579378103212_s2.JPG",
+		"name" : "美国猪 谷饲 肋排",
+		"title" : "肉质紧实  适合香烤",
+		"weight" : "300克",
+		"cuntry" : "美国",
+		"price" : "¥45"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/list/1433521077455539_s2.jpg",
+		"name" : "FIELDS精选 黄皮小土豆",
+		"title" : "肉质细密  味道纯正",
+		"weight" : "500克",
+		"cuntry" : "上海",
+		"price" : "¥8"
+	}
+]

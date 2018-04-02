@@ -1,0 +1,536 @@
+//nav
+.nav_con{
+    height:45px;
+    background:white;
+    position:relative;
+    border-top:1px solid #f0f0f0;
+    border-bottom:1px solid #f0f0f0;
+    .kind{
+        p{
+            
+            float:left;
+            .con{
+                display: block;
+                height:45px;
+                font-size:16px;
+                line-height:44px;
+                padding:0 20px;
+                color:#464646;
+                position:relative;
+                .icon7{
+                    display: block;
+                    width:32px;
+                    height: 23px;
+                    background:url(../img/index/hot.jpg);
+                    position: absolute;
+                    left:58px;
+                    top:-8px;
+                }
+            }
+            .allkind{
+                display: block;
+                width: 135px;
+                height:45px;
+                font-size:16px;
+                line-height:44px;
+                color:#333;
+                padding-left:75px;
+                position: relative;
+                .icon6{
+                    display: block;
+                    width:11px;
+                    height:6px;
+                    background:url(../img/index/icons.png) no-repeat -348px -111px;
+                    position: absolute;
+                    right:20px;
+                    top:20px;
+                }
+            }
+            
+        }
+    }
+    .second{
+        display: none;
+        width:210px;
+        min-height:430px;
+        background:white;
+        opacity:0.9;
+        position:absolute;
+        top:45px;
+        z-index: 10;
+        li{
+            .astyle{
+                display: block;
+                width:140px;
+                height:31px;
+                font-size:14px;
+                line-height: 30px;
+                color:#312c29;
+                padding-left:70px;
+                border-bottom: 1px solid white;
+                position: relative;
+                .icon7{
+                    display: block;
+                    width:7px;
+                    height:11px;
+                    background:url(../img/index/icons.png) no-repeat -538px -263px;
+                    position: absolute;
+                    right:18px;
+                    top:9px;
+                }
+            }
+            .menu_con{
+                display: none;
+                width:990px;
+                height:430px;
+                min_height:430px;
+                position:absolute;
+                background:white;
+                left:210px;
+                top:0;
+                font-size:14px;
+                line-height:24px;
+                a{
+                        color:black;
+                }
+                .menu_left{
+                    float:left;
+                    padding:0 130px 0 10px;
+                }
+                .menu_center{
+                    float:left;
+                    padding-right:130px;
+                }
+                .menu_right{
+                    float:left;
+                }
+            }
+        }
+    }
+}
+//list
+.list_con{
+    background: white;
+    min-height: 1680px;
+    .fruit_top{
+        padding: 15px 0 24px 65px;
+        font-size: 14px;
+        color: #737373;
+        a{
+            color: inherit;
+        }
+    }
+    .fruit_left{
+        float: left;
+        width: 180px;
+        min-height: 1620px;
+        padding: 0 20px;
+        background: white;
+        border-right: 1px solid gainsboro;
+        p{
+            text-align: center;
+            padding: 5px 0;
+            strong{
+                color: #009c4c;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        ul{
+            padding-bottom: 120px;
+            li{
+                position: relative;
+                a{
+                    display: inline-block;
+                    font-size: 14px;
+                    line-height: 32px;
+                    position: relative;
+                    width: 100%;
+                    text-align: center;
+                    color: #737373;
+                }
+                .icon8{
+                    display: block;
+                    width:12px;
+                    height:12px;
+                    background:url(../img/index/icons.png) no-repeat -550px -263px;
+                    position: absolute;
+                    top: 10px;
+                    right: 0px;
+                }
+            }
+        }
+        .like{
+            h2{
+                padding-left: 20px;
+                font-weight: bold;
+                color: #737373;
+                font-size: 20px;
+                line-height: 24px;
+            }
+            .like_food{
+                height:300px;
+                margin-bottom: 10px;
+                text-align: center;
+                background: #fff;
+                position: relative;
+                padding: 10px 20px;
+                .food_icon{
+                    position: absolute;
+                    top: 4px;
+                    right: 0;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+                .food_img{
+                    display: block;
+                    img{
+                        width: 100%;
+                    }
+                }
+                h3{
+                    padding-bottom: 16px;
+                    a{
+                        font-size: 14px;
+                        height: 42px;
+                        color: #333;
+                        line-height: 20px;
+                        
+                    }
+                }
+                .food_tit{
+                    font-size: 12px;
+                    color: #009c4c;
+                    height: 20px;
+                    line-height: 20px;
+                }
+                .food_des{
+                    font-size: 12px;
+                    color: grey;
+                    height: 20px;
+                    .f_weight{
+                        margin-top: 2px;
+                    }
+                    .f_cuntry{
+                        font-size: 12px;
+                    }
+                    .f_price{
+                        height: 20px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #009c4c;
+                    }
+                }
+                .like_big{
+                    width: 180px;
+                    height:320px;
+                    padding: 10px 20px;
+                    border: 1px solid #ccc;
+                    box-shadow: 0 4px 8px 8px gainsboro;
+                    text-align: left;
+                    background: #fff;
+                    .food_img{
+                        img{
+                            width: 200px;
+                            height: 200px;
+                        }
+                    }
+                    h3{                
+                        a{
+                            font-size: 16px;            
+                        }
+                    }
+                    .food_tit{
+                        margin-left: 0;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .fruit_right{
+        width: 920px;
+        float:left;
+        .fruit_top{
+            height: 18px;
+            .fruit_sort{
+                padding: 12px 25% 12px 0;
+                margin-left: 27px;
+                font-size: 14px;
+                float:left;
+                margin: 0 15px 15px 15px;
+                color: #737373;
+                strong{
+                    font-weight: bold;
+                }
+                a{
+                    margin: 0 15px 15px 15px;
+                    color: #737373;
+                    font-size: 14px;
+                }
+            }
+            .fruit_num{
+                float:left;
+                width: 83px;
+                height:18px;
+                padding: 6px 13px;
+                background: #e2e6e4;
+                position:relative;    
+                p{
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #737373;     
+                }
+                .icon8{
+                    display: block;
+                    width:12px;
+                    height:12px;
+                    background:url(../img/index/icons.png) no-repeat -349px -110px;
+                    position: absolute;
+                    top: 10px;
+                    right: 10px;
+                }  
+                .f_page{
+                    display: none;
+                    position: absolute;
+                    top: 30px;
+                    left: 0;
+                    width: 100%;
+                    background: #e2e6e4;
+                    li{
+                        border-top: 1px solid #fff;
+                        padding: 5.5px 13px;
+                        a{
+                            font-size: 14px;
+                            line-height: 18px;
+                            color: #8d8d8d;
+                        }
+                    }
+                }   
+            }
+        }
+        
+        .fruit_list{
+            .list_con1{
+                width: 100%;
+                min-height:1480px;
+                .fruit_item{
+                    width:160px;
+                    height: 270px;
+                    padding: 0 26px 20px;
+                    margin: 0 5px;
+                    text-align: center;
+                    float:left;
+                    position: relative;
+                    .item_icon{
+                        position: absolute;
+                        top: 4px;
+                        right: 10px;
+                        img{
+                            width: 30px;
+                            height:30px;
+                        }
+                    }
+                    .item_img{
+                        display: block;
+                        padding-left: 30px;
+                        img{
+                            width: 127.5px;
+                            height: 127.5px
+                        }
+                    }
+                    h3{
+                        a{
+                            display: block;
+                            font-size: 14px;
+                            height: 42px;
+                            color: #333;
+                        }
+                        
+                    }
+                    .item_tit{
+                        font-size: 12px;
+                        color: #009c4c;
+                        height: 20px;
+                        line-height: 20px;
+                    }
+                    .item_des{
+                        .i_weight{
+                            font-size: 12px;
+                            margin-top: 2px;
+                            line-height: 20px;
+                            color: #8d8d8d;
+                        }
+                        .i_cuntry{
+                            color: #8d8d8d;
+                            margin-bottom: 3px;
+                            font-size: 12px;
+                            line-height: 20px;
+                            color: #8d8d8d;
+                        }
+                        .i_price{
+                            height: 20px;
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #009c4c;
+                        }
+                    }
+                    .fruit_big{
+                        position: absolute;
+                        top:-3px;
+                        left:-3px;
+                        display: none;
+                        width:180px;
+                        height: 290px;
+                        padding: 0 26px 20px;
+                        border: 1px solid #ccc;
+                        box-shadow: 0 4px 8px 8px gainsboro;
+                        text-align: left;
+                        background: #fff;
+                        .item_img{
+                            padding-left: 16px;
+                            img{
+                                width: 150px;
+                                height: 150px;
+                            }
+                        }
+                        h3{
+                            a{
+                                font-size: 16px;
+                            }
+                        }
+                        .item_tit{
+                            font-size: 14px;
+                        }
+                        .item_des{
+                            position: relative;
+                            .i_weight{
+                                font-size: 14px;
+                            }
+                            .i_cuntry{                                
+                                font-size: 14px;     
+                            }
+                            .i_price{                             
+                                font-size: 20px;                               
+                            }
+                            .pro_car{
+                                display: block;
+                                width:40px;
+                                height:40px;
+                                background:url(../img/index/icons.png) no-repeat -436px -200px;
+                                position:absolute;
+                                top:28px;
+                                right:0;
+                            }
+                        }
+                    }
+                }
+                
+                .fruit_item:hover .fruit_big{
+                    z-index: 9999;
+                    display: block;
+                }
+            }
+            
+        }
+        .paging{
+            width: 100%;
+            height: 65px;
+            margin-top: 10px;
+            padding: 4px 63px 0 0;
+            position:relative;          
+            .fruit_page{
+                width:280px;
+                height: 60;
+                padding: 10px 0;           
+                position: absolute;
+                top:5px;
+                right:200px;
+                .prev_page{
+                    width:15px;
+                    height:25px; 
+                    padding: 8px 7px 7px 4px;
+                    background-color: #e2e6e4;
+                    float: left;
+                    a{
+                        .prev_icon{
+                            display: block;
+                            width: 15px;
+                            height: 25px;                            
+                            background:url(../img/index/icons.png) no-repeat -60px -390px;
+                        }
+                    }
+                }
+                .pages{
+                    margin: 0 8px;
+                    float:left;
+                    a{
+                        float: left;
+                        display: block;
+                        width: 24px;
+                        height: 38px;
+                        font-size: 14px;
+                        border: 1px solid #c7e9d6;
+                        text-align: center;
+                        line-height: 38px;
+                    }
+                    .current{
+                        color: #fff;
+                        background-color: #e2e6e4;
+                        margin-right: 5px;
+                    }
+                    .other{
+                        color: #737373;
+                    }
+                }
+                .next_page{
+                    width:15px;
+                    height:25px; 
+                    padding: 8px 7px 7px 4px;
+                    background-color: #e2e6e4;
+                    float: left;
+                    a{
+                        .prev_icon{
+                            display: block;
+                            width: 15px;
+                            height: 25px;                            
+                            background:url(../img/index/icons.png) no-repeat -83px -390px;
+                        }
+                    }
+                }
+                .page_jump{
+                    width: 70px;
+                    height: 38px;
+                    margin-left: 20px;
+                    font-size: 16px;
+                    line-height: 38px;
+                    color: #737373;
+                    float: left;
+                    position: relative;
+                    .inp{
+                        width: 20px;
+                        padding-right: 1px;
+                        padding-left: 1px;
+                        text-align: center;
+                        height: 38px;
+                        border: 1px solid #c7e9d6;
+                    }
+                    .click{
+                        display: block;
+                        width: 35px;
+                        height: 16px;
+                        font-size: 16px;
+                        line-height: 16px;
+                        position: absolute;
+                        top:10px;
+                        right:-40px;
+                        color: #737373;
+                        border-bottom: 1px solid #727272;
+                    }
+                }
+            }
+        }
+    }
+}

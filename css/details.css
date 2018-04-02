@@ -22,8 +22,12 @@ body {
       .top_con .top_left p .login {
         padding: 0 13px 0 10px;
         border-right: 1px solid #737375; }
+        .top_con .top_left p .login span {
+          color: #737373; }
       .top_con .top_left p .register {
         padding: 0 23px 0 12px; }
+        .top_con .top_left p .register span {
+          color: #737373; }
       .top_con .top_left p span {
         padding-left: 3px; }
       .top_con .top_left p .addr {

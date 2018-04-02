@@ -1,0 +1,113 @@
+[
+	{
+		"img" : "img/shop/index.jpg",
+		"title" : "上海 精选日本章姬奶油草莓（2盒装）",
+		"weight" : "规格: 250克*2",
+		"price" : "￥40",
+		"del" : "￥59"
+	},
+	{
+		"img" : "img/shop/index1.jpg",
+		"title" : "意大利贝鲁奇有机特级初榨橄榄油",
+		"weight" : "规格: 500毫升",
+		"price" : "¥83",
+		"del" : "￥128"
+	},
+	{
+		"img" : "img/shop/index2.jpg",
+		"title" : "南非 谷饲120天 牛仔骨（18月龄）",
+		"weight" : "规格: 300克",
+		"price" : "￥26",
+		"del" : "￥49"
+	},
+	{
+		"img" : "img/shop/1425131463665237_s2.jpg",
+		"title" : "罗非鱼",
+		"weight" : "规格: 500克",
+		"price" : "￥21",
+		"del" : "￥39"
+	},
+	{
+		"img" : "img/shop/1438884410316056_s2.jpg",
+		"title" : "（赠品）卡萨莫迪娜 早餐培根",
+		"weight" : "规格: 200克",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1465407559851376_s2.jpg",
+		"title" : "（赠品）常瀛 菲律宾香蕉（单根独立装）",
+		"weight" : "规格: 5-7根(1千克)",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1489592521425350_s2.jpg",
+		"title" : "（赠品）富硒地瓜",
+		"weight" : "规格: 750克",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1502300031372406_s2.JPG",
+		"title" : "（赠品）哈密瓜脆片 80g",
+		"weight" : "规格: 50克",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1431525424450422_s2.jpg",
+		"title" : "（赠品）国产 冷冻草莓",
+		"weight" : "规格: 600克",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1515597139611147_s2.JPG",
+		"title" : "（赠品）帕秀尼卡拉布里亚旋转意大利面500g",
+		"weight" : "规格:500克",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1500459550931084_s2.JPG",
+		"title" : "（赠品）圃美多冰花脆皮煎饺（玉米蔬菜味）",
+		"weight" : "规格: 350克",
+		"price" : "￥0"
+	},
+	{
+		"img" : "img/shop/1461324399149852_s2.jpg",
+		"title" : "（赠品）王后牌 软白低筋粉（1公斤）",
+		"weight" : "规格: 1公斤",
+		"price" : "￥0"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/shop/1517579378103212_s2.JPG",
+		"title" : "美国猪 谷饲 肋排",
+		"weight" : "300克",
+		"price" : "￥45"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/shop/1433521077455539_s2.jpg",
+		"title" : "FIELDS精选 黄皮小土豆",
+		"weight" : "500克",
+		"price" : "￥8"
+	},
+	{
+		"icon" : "img/list/new_2.png",
+		"img" : "img/shop/1474994380818253_s2.jpg",
+		"title" : "新奇士 美国摩洛血橙",
+		"weight" : "4粒（~800克）",
+		"price" : "￥42"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/shop/1465928967643971_s2.jpg",
+		"title" : "Dole 都乐菲律宾香蕉",
+		"weight" : "4-7根（1千克）",
+		"price" : "￥17"
+	},
+	{
+		"icon" : "img/list/import_2.png",
+		"img" : "img/shop/1474469046361065_s2.jpg",
+		"title" : "果的 100%冷压鲜榨甜菜根混合果汁",
+		"weight" : "300毫升",
+		"price" : "￥19"
+	}
+]

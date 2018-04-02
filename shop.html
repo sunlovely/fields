@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车内的商品</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/shop.css" />
+		<scrip type="text/javescript" src="js/jquery-1.11.3.js"></scrip>
+		<script type="text/javascript" src="js/require.js" defer async="true" data-main = "js/main"></script>
+	</head>
+	<body>
+		<!--top-->
+	<div class="top_con">
+		<div class="top_left">
+			<p>欢迎来访,</p>
+			<p>
+				<a class="login" href="login.html"><span>登录</span></a>
+				<a class="register" href="register.html"><span>注册</span></a>
+			</p>
+			<p>
+				<span>配送至：</span>
+				<a class="addr" href="">北京<i class="icon1"></i></a>
+			</p>
+		</div>
+		<ul class="top_right">
+			<li class="myli"><a class="my" href=""><span>我的收藏</span></a></li>
+			<li class="myli"><a class="my" href=""><span>我的订单</span></a></li>
+			<li class="listyle li1 myli">
+				<a class="name"><span>我的账户</span><i class="icon2"></i></a>
+				<ul class="nlist">
+					<li><a href=""><span>优惠券</span></a></li>
+					<li><a href=""><span>我的余额</span></a></li>
+					<li><a href=""><span>礼品卡</span></a></li>
+				</ul>
+			</li>
+			<li class="listyle li2 myli">
+				<a class="phone" href="">
+					<i class="ap"></i>
+					手机甫田
+					<i class="icon2"></i>
+				</a>
+				<p class="downapp">
+					<span>下载app</span>
+					<a href="">
+						<img src="img/index/down-app.png" alt="" />
+					</a>
+				</p>
+			</li>
+			<li class="listyle li3 myli">
+				<a class="focus" href="">关注甫田<i class="icon2"></i></a>
+				<div class="concat">
+					<p class="con">
+						<a class="a1" href=""></a>
+						<a class="a2" href=""></a>
+					</p>
+					<a class="weixin" href="">
+						<img src="img/index/weixin.png" alt="" />
+					</a>
+				</div>
+			</li>
+			<li class="listyle li4 myli">
+				<a class="en">
+					<i class="ensign"></i>
+					EN
+					<i class="icon2"></i>
+				</a>
+				<ul class="language">
+					<li><a href=""><span>简体中文</span><i class="icon3 i1"></i></a></li>
+					<li><a href=""><span>English</span><i class="icon3 i2"></i></a></li>
+					<li><a href=""><span>Francais</span><i class="icon3 i3"></i></a></li>
+					<li><a href=""><span>日本語</span><i class="icon3 i4"></i></a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--shop_top-->
+	<div id="shop_top">
+		<div class="shop_con">
+			<div class="shop_left">
+				<h1><a href=""><img src="img/index/logo.jpg" alt="" /></a></h1>
+			</div>
+			<div class="shop_right">
+				<ul class="shop_schedule">
+					<li>
+						<span class="circle">1</span>
+						<i>购物车</i>
+					</li>
+					<li>
+						<span>2</span>
+						<i>结算中心</i>
+					</li>
+					<li>
+						<span>3</span>
+						<i>下单成功</i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--location-->
+	<div id="location">
+		<div class="location_con">
+			<p class="location_content">
+				<i class="location_icon"></i>
+				<span>上海</span>
+			</p>
+		</div>
+	</div>
+	<!--content-->
+	<div id="car_content">
+		<div class="car_con">
+			<div class="car_ad">
+				<a href="">
+					<img src="img/shop/Addpricebuy0306_cn_pc_1200x113.jpg" alt="" />
+				</a>
+			</div>
+			<div class="car_product">
+				<dl>
+					<dt class="no_car">
+						<img src="img/shop/no-cart.png" alt="" />
+					</dt>
+					<dd>
+						<span>购物车内为空,登录后将显示您之前加入的商品</span>
+						<p class="car_login">
+							<a href="index.html" class="car_go">去逛逛</a>
+						</p>
+					</dd>
+				</dl>
+			</div>
+			<div class="add_price">
+				<h2>满238元超值换购</h2>
+				<div class="change_buy">
+					<!--<div class="my_product">
+						<a class="pro_img" href="">
+							<img src="img/shop/index.jpg" alt="" />
+						</a>
+						<h3><a href="">上海 精选日本章姬奶油草莓（2盒装）</a></h3>
+						<div class="pro_des">
+							<p class="pro_weight">规格: 250克*2</p>
+							<p class="pro_price">￥40<del>￥59<del></p>
+							<i class="pro_car"></i>
+						</div>
+					</div>-->
+				</div>
+				<h2>满 ¥308 免费送（送完即止)</h2>
+				<div class="free_buy">
+					
+				</div>
+				<h2>满 ¥508 免费送（送完即止）</h2>
+				<div class="free_song">
+					
+				</div>
+			</div>
+			<div class="car_bottom">
+				<div class="car_discount">
+					<p class="selet_count">
+						<input type="radio" class="sel_radio"/>
+						<span class="sel">选择优惠券: </span>
+						<select name="" disabled="disabled" >
+							<option value="">选择优惠券</option>
+						</select>
+						<button>ok</button>
+					</p>
+					<p class="write_count">
+						<input type="radio" class="wri_radio" />
+						<span class="write">输入优惠券: </span>
+						<input type="text" class="txt"/>
+						<button>ok</button>
+					</p>
+				</div>
+				<div class="bo_content">
+					<p class="bo_left">您还需
+						<span class='bo_free'>¥308</span> 
+						即可获得 ¥308 免费礼品一份。
+						<a href="">选择免费礼品</a>
+					</p>
+					<ul class="bo_right">
+						<li>
+							<p>商品总额</p>
+							<span>0</span>
+						</li>
+						<li>
+							<span class="equal">=</span>
+						</li>
+						<li>
+							<p>应付总额</p>
+							<span>0</span>
+						</li>
+						<li>
+							<a href="">结算</a>
+						</li>
+					</ul>
+				</div>
+				<div class="shop_like">
+					<h2>你可能喜欢</h2>
+					<div class="pro_like">
+						<!--<div class="my_product">
+							<p class="item_icon">
+								<img src="img/list/new_2.png" alt="" />
+							</p>
+							<a class="pro_img" href="">
+								<img src="img/shop/index.jpg" alt="" />
+							</a>
+							<h3><a href="">上海 精选日本章姬奶油草莓（2盒装）</a></h3>
+							<div class="pro_des">
+								<p class="pro_weight">规格: 250克*2</p>
+								<p class="pro_price">￥40<del>￥59<del></p>
+								<i class="pro_car"></i>
+							</div>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<!--footer-->
+	<div id="footer">
+		<div class="footer_con">
+			<div class="footer_top">
+				<img src="img/index/ft-2.png" alt="" />
+			</div>
+			<div class="footer_center">
+				<div class="ft_left">
+					<a href=""><img src="img/index/s-logo.png" alt="" /></a>
+					<p>
+						<span class="hot">Hotline</span>
+						<span>400-820-7708/400-021-0339</span>
+					</p>
+					<p>08:00 ~ 20:00</p>
+				</div>
+				<div class="ft_center">
+					<ul class="ftlist1">
+						<h3>新手入门</h3>
+						<li><a href=""><span>关于我们</span></a></li>
+						<li><a href=""><span>常见问题</span></a></li>
+						<li><a href=""><span>联系我们</span></a></li>
+						<li><a href=""><span>加入我们</span></a></li>
+					</ul>
+					<ul class="ftlist1">
+						<h3>企业服务</h3>
+						<li><a href=""><span>礼品卡</span></a></li>
+						<li><a href=""><span>会员制度</span></a></li>
+						<li><a href=""><span>积分制度</span></a></li>
+					</ul>
+					<ul class="ftlist1">
+						<h3>售后服务</h3>
+						<li><a href=""><span>服务承诺</span></a></li>
+						<li><a href=""><span>退货条款</span></a></li>
+						<li><a href=""><span>配送范围及时间</span></a></li>
+						<li><a href=""><span>电子发票</span></a></li>
+					</ul>
+					<ul class="ftlist1">
+						<h3>支付方式</h3>
+						<li><a href=""><span>货到付款</span></a></li>
+						<li><a href=""><span>在线支付</span></a></li>
+						<li><a href=""><span>优惠券使用</span></a></li>
+					</ul>
+				</div>
+				<div class="ft_right">
+					<p>
+						<a href=""><img src="img/index/weixin.png" alt="" /></a>
+						<span>关注微信</span>
+					</p>
+					<p>
+						<a href=""><img src="img/index/down-app.png" alt="" /></a>
+						<span>下载app</span>
+					</p>
+				</div>
+			</div>
+			<div class="footer_bottom">
+				<p class="fborder"></p>
+				<p class="copy">
+					<a href=""><img src="img/index/guan_shgs.gif" alt="" /></a></a>
+					<span>© 2009-2018 FIELDS CHINA. All Rights Reserved 沪ICP备10215492号-3</span>
+				</p>
+				
+			</div>
+		</div>
+	</div>
+	</body>
+</html>

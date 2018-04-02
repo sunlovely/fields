@@ -1,0 +1,391 @@
+.shop_con{
+    height:130px;
+    background:white;
+    .shop_left{
+        width:384px;
+        float: left;
+        padding: 30px 0 0 60px;
+        a{
+            display: block;
+            width:297px;
+            height:71px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .shop_right{
+        width:756px;
+        float: left;        
+        margin-top: 52px;
+        border-top: 1px solid #e2e6e4;
+        position: relative;
+        .shop_schedule{
+            position: absolute;
+            top: -20px;
+            width: 100%;
+            li{
+                float:left;
+                margin-left: 120px;
+                text-align: center;
+                span{
+                    display: block;
+                    font-size: 14px;
+                    line-height: 36px;
+                    width: 36px;
+                    height: 36px;
+                    margin: 0 auto 13px;
+                    border: 1px solid #e4f1ea;
+                    border-radius: 18px;
+                    background: #f0f0f0;
+                    color: #737373;
+                }
+                .circle{
+                    color: #fff;
+                    background: #009c4c;
+                }
+                i{
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #737373;
+                }
+            }
+        }
+    }
+}
+.location_con{
+    background: white;
+    height: 48px;
+    padding-top: 5px;
+    border-top: 1px solid gainsboro;
+    .location_content{
+        padding-left: 105px;
+        line-height: 42px;
+        position: relative;
+        .location_icon{
+            display: block;
+            width:20px;
+            height:30px;
+            background:url(../img/index/icons.png) no-repeat -627px -198px;
+            position:absolute;
+            top:8px;
+            left:75px;
+        }
+        span{
+            font-size: 14px;
+            color: #737373;
+        }
+    }
+}
+
+.car_con{
+    min-height:2550px;
+    background: white;
+    .car_ad{
+        height: 113px;
+        border: 2px solid ghostwhite;
+    }
+    .car_product{
+        width: 100%;
+        min-height: 350px;
+        text-align: center;
+        dl{
+            margin-top: 180px;
+            .no_car{
+                padding-left: 525px;
+                img{
+                    width: 125px;
+                    height: 102px;
+                }
+            }
+            dd{
+                font-size: 16px;
+                margin-top: 40px;
+                span{
+                    font-size: 16px;
+                    line-height: 60px;
+                    color: #737373;
+                }
+                .car_login{
+                    padding-left: 525px;
+                    a{
+                        display: block;
+                        font-size: 16px;
+                        line-height: 40px;
+                        width: 125px;
+                        height: 40px;
+                        text-align: center;
+                        color: #fff;
+                        border: none;
+                        background-color: #009c4c;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .add_price{
+        height: auto;
+        padding: 0 55px 15px 74px;
+        h2{
+            font-size: 16px;
+            line-height: 60px;
+            font-weight: bold;
+            color: #009c4c;
+            border-bottom: 1px solid gainsboro;
+        }
+        .change_buy{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        .free_buy{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+        .free_song{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+        .my_product{
+            float: left;
+            width: 220px;
+            height: 335px;
+            margin:0 23px;
+            .pro_img{
+                display: block;
+                width: 227.75px;
+                height: 227.75px;
+                margin-left: 4px;
+                img{
+                    width:100%;
+                    height: 100%;
+                }
+            }
+            h3{
+                font-size: 14px;
+                height: 42px;
+                a{
+                    color: #333;
+                }
+            }
+            .pro_des{
+                position: relative;
+                .pro_weight{
+                    font-size: 12px;
+                    margin-top: 4px;
+                    height: 20px;
+                    color: #8d8d8d;
+                }
+                .pro_price{
+                    height: 20px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #009c4c;
+                    del{
+                        color: #737373;
+                        font-size: 14px;
+                        margin-left: 20px;
+                        font-weight: normal;
+                    }
+                }
+                .pro_car{
+                    display: block;
+                    width:40px;
+                    height:40px;
+                    background:url(../img/index/icons.png) no-repeat -436px -200px;
+                    position:absolute;
+                    top:8px;
+                    right:0;
+                }
+            }
+        }
+    }
+    .car_bottom{
+        width: 100%;
+        height: 102px;
+        .car_discount{
+            width: 365px;
+            height: 79px;
+            background: #f6f7f7;
+            margin-left: 74px;
+            padding-left: 20px;
+            .selet_count,.write_count{
+                height: 39px;
+                padding-top: 5px;
+            }
+            .sel_radio,.wri_radio{
+                margin-top: 5px;
+                margin-right: 8px;
+                width: 15px;
+                height: 15px;
+                background:url(../img/index/icons.png) no-repeat -2px -152px;
+            }
+            .sel,.write{
+                font-size: 14px;
+                line-height: 18px;
+                color: #737373;
+                padding-right: 4px;
+            }
+            select{
+                width: 148px;
+                padding: 3px 0 3px 5px;
+                height: 29px;
+                background: #fff;       
+            }
+            .txt{
+                width: 142px;
+                padding: 2px 0 3px 3px;
+                height: 18px;
+                background: #fff;
+            }
+            button{
+                width: 90px;
+                line-height: 19px;
+                height: 27px;
+                padding: 4px 7px;
+                margin-left: 3px;
+                border: none;
+                font-size: 14px;
+                color: #fff;
+                background-color: #e2e6e4;
+            }
+        }
+        .bo_content{
+            width: 1071px;    
+            height: 46px;
+            padding: 28px 55px 28px 74px;
+            background: #f6f7f7;
+            .bo_left{
+                width: 325px;
+                font-size: 14px;
+                line-height: 20px;
+                color: #f07641;
+                float: left;
+                margin-right: 400px;
+                a{
+                    color: #009c4c;
+                }
+            }
+            .bo_right{
+                float:left;
+                li{
+                    float: left;
+                    p{
+                        font-size: 14px;
+                        line-height: 18px;
+                        color: #737373;
+                        margin-bottom: 5px;
+                    }
+                    span{
+                        font-size: 16px;
+                        line-height: 18px;       
+                        margin-bottom: 5px;
+                        color: #009c4c;
+                        padding: 0 25px;
+                    }
+                    .equal{
+                        display: block;
+                        margin-top: 20px;
+                        padding: 0 20px;
+                    }
+                    a{
+                        display: block;
+                        font-size: 16px;
+                        line-height: 40px;
+                        width: 125px;
+                        height: 40px;
+                        text-align: center;
+                        color: #fff;
+                        background-color: #009c4c;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .shop_like{
+        min-height: 333px;
+        padding: 0 62px 0 74px;
+        h2{
+            height: 60px;
+            font-size: 20px;
+            line-height: 60px;
+            font-weight: bold;
+            color: #737373;
+        }
+        .pro_like{
+            width: 100%;
+            height: 335px;
+            .my_product{
+                float: left;
+                width: 220px;
+                height: 335px;
+                margin:0 23px;
+                position: relative;
+                .item_icon{
+                    position: absolute;
+                    top: 4px;
+                    right: 10px;
+                    img{
+                        width: 30px;
+                        height:30px;
+                    }
+                }
+                .pro_img{
+                    display: block;
+                    width: 227.75px;
+                    height: 227.75px;
+                    margin-left: 8px;
+                    img{
+                        width:100%;
+                        height: 100%;
+                    }
+                }
+                h3{
+                    font-size: 14px;
+                    height: 42px;
+                    a{
+                        color: #333;
+                    }
+                }
+                .pro_des{
+                    position: relative;
+                    .pro_weight{
+                        font-size: 12px;
+                        margin-top: 4px;
+                        height: 20px;
+                        color: #8d8d8d;
+                    }
+                    .pro_price{
+                        height: 20px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #009c4c;
+                        del{
+                            color: #737373;
+                            font-size: 14px;
+                            margin-left: 20px;
+                            font-weight: normal;
+                        }
+                    }
+                    .pro_car{
+                        display: block;
+                        width:40px;
+                        height:40px;
+                        background:url(../img/index/icons.png) no-repeat -436px -200px;
+                        position:absolute;
+                        top:8px;
+                        right:0;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
